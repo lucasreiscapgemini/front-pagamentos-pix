@@ -1,4 +1,4 @@
-# Capgemini - Desafio Backend | Java
+# Capgemini - Desafio Frontend | Angular
 
 Olá! Esse desafio técnico tem como propósito medir suas habilidades, ver como estuda, pensa e se organiza na prática. O framework utilizado é Angular e versão é de sua escolha (sendo Angular 2+). 
 
