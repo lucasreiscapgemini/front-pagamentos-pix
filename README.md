@@ -8,7 +8,7 @@ Existem diversas maneiras e profundidades de solucionar o problema que estamos p
 
 ## O desafio
 
-Usuários Bradesco realizam diversos pagamentos pix por todo o Brasil, o desafio é fazer uma aplicação em angular que cadastre os pagamentos pix e listar os pagamentos pix. Na tela de listagem de pagamento, deve informar a porcentagem que o valor pagamento feito pelo usuario na data dd/mm/yyyy representa  dos valores dos pagamentos totais do mês vigente.
+Usuários Bradesco realizam diversos pagamentos pix por todo o Brasil, o desafio é fazer uma aplicação em angular que cadastre os pagamentos pix e listar os pagamentos pix. Na tela de listagem de pagamento, deve informar a porcentagem que o valor pagamento feito pelo usuario na data dd/mm/yyyy representa  dos valores dos pagamentos totais do mês vigente. Construir um SPA  que por sua vez consumirá umm endPoint "/pagamentos" que terá devolverá para o usuário final um payload em JSON contentando dados dos  pagamento pix.
 
 ## Input
 
