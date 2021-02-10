@@ -27,6 +27,7 @@ O cliente tem que ser capaz de ver a listagem de pagamentos com a porcentagem de
 * Chave pix
 * Valor
 * Descrição
+* Logica de porcentagem dos pagametnos (Ex: aplicar uma regra de porcentagem com base no valor do pagamento pix )
 
 
 ## Alguns pontos cruciais para entrega
@@ -38,8 +39,9 @@ O cliente tem que ser capaz de ver a listagem de pagamentos com a porcentagem de
 * Organização do código 
 * Organização do repositorio remoto
 * Fork e Pull request
-* CRUD completo de pagamentos.
-* Testes Unitarios 
+* CRUD completo de pagamentos pix.
+* Testes Unitarios (TDD)
+* Código bem comentado 
 * Facilidade ao rodar o projeto
 * Utilização de padrões de projeto 
 * Utilização de DDD
