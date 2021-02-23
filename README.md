@@ -8,7 +8,7 @@ Existem diversas maneiras e profundidades de solucionar o problema que estamos p
 
 ## O desafio
 
-Usuários Bradesco realizam diversos pagamentos pix por todo o Brasil, o desafio é fazer uma aplicação em angular que cadastre os pagamentos pix e listar os pagamentos pix. Na tela de listagem de pagamento, deve informar a porcentagem que o valor pagamento feito pelo usuario na data dd/mm/yyyy representa  dos valores dos pagamentos totais do mês vigente. Construir um SPA  que por sua vez consumirá umm endPoint "/pagamentos" que terá devolverá para o usuário final um payload em JSON contentando dados dos  pagamento pix.
+Usuários Bradesco realizam diversos pagamentos pix por todo o Brasil, o desafio é fazer uma aplicação em angular que cadastre os pagamentos pix e listar os pagamentos pix. Na tela de  listagem dos pagamentos deve informar também a porcentagem de cada pagamento em relação o valor montante mensal dos pagamentos feito pela pessoa  X na data dd/mm/yyyy.  Construir um SPA  que por sua vez consumirá umm endPoint "/pagamentos" que terá devolverá para o usuário final um payload em JSON contentando dados dos  pagamento pix.
 
 ## Input
 
@@ -16,8 +16,7 @@ Você deve criar uma aplicação para que faça requisições utilizando  json d
 
 ## Output
 
-O cliente tem que ser capaz de ver a listagem de pagamentos com a porcentagem de cada pagamento em relação ao mês vigente.
-
+Receber lista de pagamentos pix com porcentagem de cada pagamento em relação ao valor montante dos pagamentos pix de uma pessoa X e data dd/mm/yyyy
 
 ### Dados a serem coletados do pagamento pix :
 
@@ -26,20 +25,20 @@ O cliente tem que ser capaz de ver a listagem de pagamentos com a porcentagem de
 * Instituição Bancaria
 * Chave pix
 * Valor
+* Data Pagamento
 * Descrição
 * Logica de porcentagem dos pagametnos (Ex: aplicar uma regra de porcentagem com base no valor do pagamento pix )
 
-
 ## Alguns pontos cruciais para entrega
-* Criação da telas de cadastrar e listar com as requesições feitas a uma api.
-* Logica da porcentagem dos pagamentos
+
+* Criação de uma API que seja capaz de receber requesições feitas utilizando json e persistindo esses dados. (CRUD)
+* Logica da porcentagem dos pagamentos pix
 
 ## Alguns pontos que serão bonús:
 
 * Organização do código 
 * Organização do repositorio remoto
 * Fork e Pull request
-* CRUD completo de pagamentos pix.
 * Testes Unitarios (TDD)
 * Código bem comentado 
 * Facilidade ao rodar o projeto
